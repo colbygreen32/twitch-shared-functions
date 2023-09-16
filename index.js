@@ -8,7 +8,7 @@ export const authorizeTwitch = async () => {
   let config = {
     method: "post",
     maxBodyLength: Infinity,
-    url: "https://id.twitch.tv/oauth2/token?client_id=nll66b09wopq67x02ev9n172m6u0gh&client_secret=vgabsslz61vidqd1gxpnrjvgcukf6j&grant_type=refresh_token&refresh_token=ntxh487kmxx0yd79krn60sq61hg87tstrpogp6b1uc5vw7rd6t"
+    url: "https://id.twitch.tv/oauth2/token?client_id=nll66b09wopq67x02ev9n172m6u0gh&client_secret=vgabsslz61vidqd1gxpnrjvgcukf6j&grant_type=refresh_token&refresh_token=n1ohozkfn598ww2l3kwmu90mn6uwqa8s0zrb2d3txoatlf7rb7"
   };
 
   const result = await axios.request(config);
