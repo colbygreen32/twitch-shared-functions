@@ -12,7 +12,7 @@ export const authorizeTwitch = async () => {
   };
 
   const result = await axios.request(config);
-  token = result.data.access_token;
+  return result.data.access_token;
 };
 
 export const getFollowerCount = async (user) => {
